@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="palavras">
+        <item>casa</item>
+        <item>bola</item>
+        <item>podre</item>
+        <item>teste</item>
+        <item>treze</item>
+        <item>peixe</item>
+        <item>zebra</item>
+        <item>sempre</item>
+        <item>panela</item>
+        <item>escuta</item>
+        <item>novela</item>
+        <item>novena</item>
+        <item>ouvido</item>
+        <item>senhor</item>
+        <item>dezena</item>
+        <item>postal</item>
+        <item>seguro</item>
+        <item>camada</item>
+        <item>nociva</item>
+        <item>exposto</item>
+        <item>durante</item>
+        <item>natural</item>
+        <item>destino</item>
+        <item>amarelo</item>
+        <item>senhora</item>
+        <item>leitura</item>
+        <item>emitido</item>
+        <item>utilize</item>
+        <item>incolor</item>
+        <item>viseira</item>
+        <item>telhado</item>
+        <item>compota</item>
+        <item>garantia</item>
+        <item>material</item>
+        <item>cegueira</item>
+    </array>
+</resources>
