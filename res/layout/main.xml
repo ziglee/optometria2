@@ -110,18 +110,21 @@
             android:id="@+id/opcao1Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="..." />
+            android:text="..." 
+            android:visibility="gone"/>
 
         <Button
             android:id="@+id/opcao2Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="..." />
+            android:text="..." 
+            android:visibility="gone"/>
 
         <Button
             android:id="@+id/opcao3Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="..." />
+            android:text="..." 
+            android:visibility="gone"/>
     </LinearLayout>
 </LinearLayout>

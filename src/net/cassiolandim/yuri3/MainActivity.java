@@ -78,9 +78,9 @@ public class MainActivity extends Activity implements OnClickListener {
 			}
 		}
 
-		opcao1Button.setText("...");
-		opcao2Button.setText("...");
-		opcao3Button.setText("...");
+		opcao1Button.setVisibility(View.GONE);
+		opcao2Button.setVisibility(View.GONE);
+		opcao3Button.setVisibility(View.GONE);
 		primeiroTextView.setText(primeiraParte);
 		segundoTextView.setText(segundaParte);
 		primeiroTextView.setVisibility(View.VISIBLE);
@@ -155,6 +155,9 @@ public class MainActivity extends Activity implements OnClickListener {
 		estado = ESTADO_PRONTO;
 		tempoTextView.setText("5");
 		actionButton.setText("Iniciar");
+		opcao1Button.setVisibility(View.GONE);
+		opcao2Button.setVisibility(View.GONE);
+		opcao3Button.setVisibility(View.GONE);
 		primeiroTextView.setVisibility(View.INVISIBLE);
 		segundoTextView.setVisibility(View.INVISIBLE);
 		instrucoesTextView.setVisibility(View.VISIBLE);
@@ -168,6 +171,10 @@ public class MainActivity extends Activity implements OnClickListener {
 			opcao2Button.setText(respostas[1]);
 			opcao3Button.setText(respostas[2]);
 
+			opcao1Button.setVisibility(View.VISIBLE);
+			opcao2Button.setVisibility(View.VISIBLE);
+			opcao3Button.setVisibility(View.VISIBLE);
+			
 			primeiroTextView.setVisibility(View.INVISIBLE);
 			segundoTextView.setVisibility(View.VISIBLE);
 
