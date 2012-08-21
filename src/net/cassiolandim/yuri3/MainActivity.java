@@ -17,6 +17,7 @@ public class MainActivity extends Activity implements OnClickListener {
 	private int pontuacao = 0;
 	private int fase;
 	private int estado;
+	private int tempo = 5000;
 	private TextView instrucoesTextView;
 	private TextView pontuacaoTextView;
 	private TextView primeiroTextView;
@@ -181,7 +182,7 @@ public class MainActivity extends Activity implements OnClickListener {
 			if (timer != null)
 				timer.cancel();
 
-			timer = new CountDownTimer(5000, 500) {
+			timer = new CountDownTimer(tempo, 500) {
 				public void onTick(long millisUntilFinished) {
 					tempoTextView.setText(String.valueOf(millisUntilFinished / 1000));
 				}
@@ -198,6 +199,7 @@ public class MainActivity extends Activity implements OnClickListener {
 		if (acertou) {
 			if (timer != null)
 				timer.cancel();
+			tempo -= 150;
 			pontuacao++;
 			pontuacaoTextView.setText(String.valueOf(pontuacao));
 			setupObjetivo();
